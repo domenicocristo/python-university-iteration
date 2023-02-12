@@ -1,10 +1,12 @@
-# La funzione predefinita eval valuta un'espressione sotto forma di stringa, usando
-# l'interprete Python.
+"""
+La funzione predefinita eval valuta un'espressione sotto forma di stringa, usando
+l'interprete Python.
 
-# Scrivete una funzione di nome eval_ciclo che chieda iterativamente all'utente di inserire un dato,
-# prenda il dato inserito e lo valuti con eval, infine visualizzi il risultato.
+Scrivete una funzione di nome eval_ciclo che chieda iterativamente all'utente di inserire un dato,
+prenda il dato inserito e lo valuti con eval, infine visualizzi il risultato.
 
-# Deve continuare fino a quando l'utente non scriva 'fatto'.
+Deve continuare fino a quando l'utente non scriva 'fatto'.
+"""
 
 def eval_ciclo():
     while True:
